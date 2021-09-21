@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, .bod, .hedbod {
+    border: 2px solid orange;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1px;
+    padding: 25px 100px 25px 100px;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.hedbod{
+    text-align: center;
+}
+
+.bod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container .card{
+    position: relative;
+    width: 600px;
+    height:250px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(316deg, #f42b03 0%, #ffbe0b 74%);
+    margin: 5px;
+    ;
+}
+
+.card img{
+    position:absolute;
+    bottom:0%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 250px;
+    transition: 0.5s;
+}
+
+.container .card:hover img{
+    left:73%;
+    height:350px;
+}
+
+.container .card .content{
+    position: relative;
+    width: 50%;
+    left:0;
+    padding: 20px 20px 20px 40px;
+    transition: .5s;
+}
+
+.container .card .content h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1em;
+
+}
+
+.container .card .content p{
+    color: whitesmoke;
+
+}
+
+.Main_Card{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 50%;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3% 10%;
+}
+
+.hedbod, .bod{
+    height: 800px;
+
+}

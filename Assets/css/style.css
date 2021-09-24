@@ -17,11 +17,21 @@ nav{
     text-align: center;
 }
 
+.main_header{
+    background-image: url(Assets/images/Myportfolio.png) ;
+    padding:60px;
+}
+
 .links{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 30%;
+}
+
+.hedbod, .bod{
+    height: auto;
+
 }
 
 .hedbod{
@@ -104,9 +114,4 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 3% 10%;
-}
-
-.hedbod, .bod{
-    height: 800px;
-
 }
